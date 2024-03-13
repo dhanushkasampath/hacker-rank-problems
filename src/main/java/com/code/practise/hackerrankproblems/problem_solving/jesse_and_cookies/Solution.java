@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class JesseAndCookies {
+public class Solution {
     public static int cookies(int k, List<Integer> A) {
         // Write your code here
         int noOfOperations = 0;
@@ -33,11 +33,8 @@ public class JesseAndCookies {
         return firstLeastSweetCookie + 2*secondLeastSweetCookie;
     }
 
-//    private static int getminValueOfList(List<Integer> list){
-//        return Collections.min(list);
-//    }
-
-    //this function checks whether all the elements in the list are greater than or equal to given value. returns true or false
+    //this function checks whether all the elements in the list are greater than or equal to given value.
+    // returns true or false
     private static boolean isListElementsAreGreaterThanGivenValue(
             List<Integer> list, int val){
 
@@ -51,8 +48,10 @@ public class JesseAndCookies {
     }
 
     public static void main(String[] args) throws IOException {
-//        int operationCount = cookies(7, Arrays.asList(1, 2, 3, 9, 10, 12));
-        int operationCount = cookies(10, Arrays.asList(1, 1, 1));
+        int operationCount = cookies(7, Arrays.asList(1, 2, 3, 9, 10, 12));
+//        int operationCount = cookies(10, Arrays.asList(1, 1, 1));
+//        int operationCount = cookies(200, Arrays.asList(5, 6, 7));
+//        int operationCount = cookies(8467293, Arrays.asList(13, 47, 74, 12, 89, 74, 18, 38));
         System.out.println(operationCount);
     }
 
