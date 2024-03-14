@@ -1,6 +1,4 @@
-package com.code.practise.hackerrankproblems.problem_solving.trees;
-
-import java.util.Scanner;
+package com.code.practise.hackerrankproblems.problem_solving.trees.height_of_a_binary_tree;
 
 class Node {
     Node left;
