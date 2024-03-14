@@ -65,15 +65,24 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int t = scan.nextInt();
+//        Scanner scan = new Scanner(System.in);
+//        int t = scan.nextInt();
+//        Node root = null;
+//        while(t-- > 0) {
+//            int data = scan.nextInt();
+//            root = insert(root, data);
+//        }
+//        scan.close();
+//        int height = height(root);
+//        System.out.println(height);
+
+        int[] arr = {3, 5, 2, 1, 4, 6, 7};
         Node root = null;
-        while(t-- > 0) {
-            int data = scan.nextInt();
-            root = insert(root, data);
+        for(int i : arr) {
+            root = insert(root, i);
         }
-        scan.close();
         int height = height(root);
         System.out.println(height);
     }
 }
+
