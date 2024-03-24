@@ -74,14 +74,14 @@ class Result {
                }
             }
 
-            if(node.next == null) {//coming here means we need to set node to tail
+            if(node.next == null) {//coming to here means we are going to add the new node to current tail node
                 if(data < node.data ){//coming to here means we are going to add the new node after the head node and before to the tail node
                     node = node.prev;
                     newNode.prev = node;
                     newNode.next = node.next;
                     node.next = newNode;
                 } else {
-                    node.next = newNode;// //coming to here means we are going to add the new node before to the tail node
+                    node.next = newNode;//coming to here means we are going to add the new node before to the tail node
                     newNode.prev = node;
                 }
                 return llist;
