@@ -1,4 +1,4 @@
-package com.code.practise.leetcodeproblems.add_digits;
+package com.code.practise.leetcodeproblems.no3_add_digits;
 
 import java.util.Collections;
 import java.util.List;

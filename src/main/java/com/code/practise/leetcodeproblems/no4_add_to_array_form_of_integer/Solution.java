@@ -1,4 +1,4 @@
-package com.code.practise.leetcodeproblems.add_to_array_form_of_integer;
+package com.code.practise.leetcodeproblems.no4_add_to_array_form_of_integer;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

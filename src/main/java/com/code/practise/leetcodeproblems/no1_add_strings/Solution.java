@@ -1,4 +1,4 @@
-package com.code.practise.leetcodeproblems.add_strings;
+package com.code.practise.leetcodeproblems.no1_add_strings;
 
 import java.math.BigInteger;
 

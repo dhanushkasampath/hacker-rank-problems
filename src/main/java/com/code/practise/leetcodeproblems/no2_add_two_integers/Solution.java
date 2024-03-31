@@ -1,4 +1,4 @@
-package com.code.practise.leetcodeproblems.add_two_integers;
+package com.code.practise.leetcodeproblems.no2_add_two_integers;
 
 public class Solution {
 
