@@ -1,4 +1,4 @@
-package com.code.practise.hackerrankproblems.algorithms.greedy.marcs_cakewalk;
+package com.code.practise.hackerrankproblems.algorithms.greedy.no1_marcs_cakewalk;
 
 import java.util.Arrays;
 import java.util.Collections;

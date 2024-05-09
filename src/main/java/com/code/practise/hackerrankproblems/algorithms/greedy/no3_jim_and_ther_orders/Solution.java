@@ -1,4 +1,4 @@
-package com.code.practise.hackerrankproblems.algorithms.greedy.jim_and_ther_orders;
+package com.code.practise.hackerrankproblems.algorithms.greedy.no3_jim_and_ther_orders;
 
 import java.util.*;
 

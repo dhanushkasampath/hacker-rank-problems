@@ -1,4 +1,4 @@
-package com.code.practise.hackerrankproblems.algorithms.greedy.luck_balance;
+package com.code.practise.hackerrankproblems.algorithms.greedy.no2_luck_balance;
 
 import java.util.ArrayList;
 import java.util.Arrays;
