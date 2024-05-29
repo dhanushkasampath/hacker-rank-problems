@@ -11,7 +11,7 @@ public class Test {
         HttpClient httpClient = HttpClient.newHttpClient();
 
         HttpRequest request = HttpRequest.newBuilder(
-                URI.create("https://run.mocky.io/v3/0174cc82-7b01-411f-9448-01e57d7c7b89")).GET()
+                URI.create("https://www.w3schools.com/html/")).GET()
                 .build();
 
         HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
