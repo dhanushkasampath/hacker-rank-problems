@@ -1,4 +1,4 @@
-package com.code.practise.hackerrankproblems.common.java_loops_ll;
+package com.code.practise.hackerrankproblems.common.java.java_loops_ll;
 
 import java.util.ArrayList;
 import java.util.List;

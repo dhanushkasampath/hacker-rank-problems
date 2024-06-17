@@ -1,4 +1,4 @@
-package com.code.practise.hackerrankproblems.common.strings.java_string_tokens;
+package com.code.practise.hackerrankproblems.common.java.strings.java_string_tokens;
 
 import java.util.Scanner;
 
