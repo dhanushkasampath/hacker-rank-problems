@@ -1,4 +1,4 @@
-package com.code.practise.hackerrankproblems.data_structures.queues.java_dequeue;
+package com.code.practise.hackerrankproblems.data_structures.queues.java_dequeue_HARD;
 
 import java.util.*;
 
