@@ -3,6 +3,15 @@ package com.code.practise.hackerrankproblems.data_structures.heap.jesse_and_cook
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * We are going to solve this problem using a min heap. Firstly, we add all the elements in the list to a min heap.
+ * This has time complexity of O(nlog(n))
+ * Then after that we are going to iterate through our heap. If the root’s value is less than
+ * , we pop() it and the one after it, mix them together using the formula above, and insert the new cookie back into the min heap then increment count. We keep doing this until the root has a value greater or equal to
+ *  or there’s one item left in the heap. If there’s one item left and it’s less than
+ *  we return
+ * . Here is the code:
+ */
 public class Solution {
 
     private static List<Integer> itemList;
@@ -78,7 +87,7 @@ public class Solution {
     private static int pop(){
         int val = itemList.get(0);
         int i = itemList.size() - 1;
-        itemList.add(0, itemList.get(i)); //replace the oth index of the list with value in i'th index
+        itemList.set(0, itemList.get(i)); //replace the oth index of the list with value in i'th index
         itemList.remove(i);// remove the value at i'th index
         bubbleDown();
         return val;
@@ -118,8 +127,8 @@ public class Solution {
      */
     private static void swap(int x, int y){
         Integer temp = itemList.get(x);
-        itemList.add(x, itemList.get(y));
-        itemList.add(y, temp);
+        itemList.set(x, itemList.get(y));
+        itemList.set(y, temp);
     }
 
     /**
