@@ -73,7 +73,7 @@ public class Test2 {
         return maxLength;
     }
 
-    public static int findMaxLength(int[] nums, int k) {
+    public static int findMaxLength1(int[] nums, int k) {
         int n = nums.length;
         if (n == 0) {
             return 0;

@@ -1,4 +1,4 @@
-package com.code.practise.hackerrankproblems.data_structures.Java_subarray;
+package com.code.practise.hackerrankproblems.data_structures.arrays.Java_subarray;
 
 import java.util.Scanner;
 
